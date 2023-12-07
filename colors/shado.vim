@@ -31,12 +31,6 @@ let g:terminal_color_13 = '#E9729D'
 let g:terminal_color_14 = '#F18FB0'
 let g:terminal_color_15 = '#f1c4e0'
 
-" Transparent background
-" au ColorScheme * hi Normal ctermbg=NONE guibg=NONE
-" hi SignColumn guibg=NONE
-" hi LineNr guifg=#a1a1dd guibg=NONE
-" hi CursorLineNr guifg=#de286e guibg=NONE
-au ColorScheme * hi Normal ctermbg=NONE guibg=#111119
 hi SignColumn guibg=#111119
 hi LineNr guifg=#a1a1dd guibg=#111119
 hi CursorLineNr guifg=#de286e guibg=#111119
